@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner sc = new Scanner(System.in);
+        
+        // Read the input line
+        String word = sc.nextLine();
+        
+        // Split the input to get the first word
+        String firstWord = word.split(" ")[0];
+        
+        // Output the desired message
+        System.out.println("May I know how to learn " + firstWord + "!!!...");
+        
+        // Close the scanner
+        sc.close();
+    }
+}
